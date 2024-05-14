@@ -1,0 +1,148 @@
+<!-- Wajib copy dari sini -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiTips</title>
+    <link rel="stylesheet" href="Video style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      <div class="sidebar">
+        <ul>
+            <div class="account-sidebar"><img src="Assets/profile-user.png"></div><div class="username-sidebar">Juan</div>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="MyVideos.html">My Videos</a></li>
+            <li><a href="Liked.html">Liked Videos</a></li>
+            <li><a href="Saved.html">Saved Videos</a></li>
+        </ul>
+      </div>  
+      <nav>
+          <div class="logo">
+            <a href="Home.html">
+                <img src="Assets/Digitips.png">
+            </a>
+          </div>
+            <form id="search">
+                <input type="search" id="query" name="q" placeholder="Search">
+                <!-- <button class="button"><i class="fa fa-search"></i></button> -->
+                <button><svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg></button>
+            </form>
+            <button class="upload"> <a href="Upload.html"><img src="Assets/upload.png"></a> </button>
+            <button class="settings"> <a href="Settings.html"><img src="Assets/settings.png"></a> </button>
+            <button class="account"> <a href="Account.html"><img src="Assets/profile-user.png"></a> </button> 
+            
+        </nav>
+
+    
+         <!-- Wajib copy sampe sini -->
+         <a class="toggler-navbar">
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+        
+              
+                <div class="video-container">
+                  <div class="video-grid">
+                    <div class="video-title">Video Title</div>
+                    <div class="video-date">Video Date</div>
+                    <div class="video-player">
+                      <video controls>
+                        <source src="Assets/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="profile">
+                      <img src="Assets/profile-image.jpg" alt="Profile Image">
+                      <div class="profile-info">
+                        <h3>John Doe</h3>
+                        <p>1,234 subscribers</p>
+                      </div>
+                      <button class="subscribe-button">Subscribe</button>
+                      
+                    </div>
+                    
+                  <div class="comment-section">
+                    <div class="comment-grid">
+                      <div class="top-bar">
+                        Comment
+                      </div>
+                      <div class="comment-bar">
+                        <input type="text" placeholder="Write a comment..." class="comment-input">
+                        
+                      </div>
+                      <button class="comment-button">Submit</button>
+                    </div>
+                    
+                  </div>
+
+                 
+                </div>
+                <div class="category-section">
+                  <div class="category-symbol">
+                    <img src="Assets/cooking-icon.png" alt="Cooking Icon">
+                  </div>
+                  <h3 class="category-title">Cooking</h3>
+                </div>
+                  <div class="description-section">
+                    
+                    <div class="title-bar">
+                      Description
+                    </div>
+                    <div class="subheading">
+                      <ol>
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                        <li>List item 3</li>
+                      </ol>
+                    </div>
+                    <button class="read-more-button">Read More</button>
+                    
+                  </div>
+                  
+                  
+                  
+                </div>
+                <div class="recommended-videos">
+                  
+                  <div class="video-container2">
+                    
+                    <div class="video-thumbnail">
+                      <img src="Assets/video1.jpg" alt="Video 1">
+                      <h3 class="video-title">Video 1 Title</h3>
+                      <h4 class="video-subheading">Uploaded by User 1</h4>
+                    </div>
+                    <div class="video-thumbnail">
+                      <img src="Assets/video2.jpg" alt="Video 2">
+                      <h3 class="video-title">Video 2 Title</h3>
+                      <h4 class="video-subheading">Uploaded by User 2</h4>
+                    </div>
+                    <div class="video-thumbnail">
+                      <img src="Assets/video3.jpg" alt="Video 3">
+                      <h3 class="video-title">Video 3 Title</h3>
+                      <h4 class="video-subheading">Uploaded by User 3</h4>
+                    </div>
+                  </div>
+                </div>
+        
+          </div>
+        
+  </header>
+</body>
+
+</html>
+<script src="Video-hamburg.js"></script>

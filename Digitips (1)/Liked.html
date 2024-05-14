@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiTips</title>
+    <link rel="stylesheet" href="Liked style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="Home.html">
+                    <img src="Assets/Digitips.png">
+                </a>
+            </div>
+            <form id="search">
+                <input type="search" id="query" name="q" placeholder="Search">
+                <button><svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg></button>
+            </form>
+            <button class="upload"> <a href="Upload.html"><img src="Assets/upload.png"></a> </button>
+            <button class="settings"> <a href="Settings.html"><img src="Assets/settings.png"></a> </button>
+            <button class="account"> <a href="Account.html"><img src="Assets/profile-user.png"></a> </button> 
+        </nav>
+        <!-- <a class="toggler-navbar">
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a> -->
+        <div class="sidebar">
+        <ul>
+            <div class="account-sidebar"><img src="Assets/profile-user.png"></div><div class="username-sidebar">Juan</div>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="MyVideos.html">My Videos</a></li>
+            <li class="active"><a href="">Liked Videos</a></li>
+            <li><a href="Saved.html">Saved Videos</a></li>
+        </ul>
+        </div>
+        <!-- <script src="Home-hamburger.js"></script> -->
+        <div class="liked-tulisan">Liked Video</div>
+            <!-- <button class="categories quality-category">&nbsp &nbsp &nbsp &nbsp Download Quality</button> -->
+            <button class="categories shuffle-category"><img src="Assets/shuffle.png"><p>Shuffle</p></button>
+            <button class="categories play-category"><img src="Assets/play.png"><p>Play All</p></button>
+        <p class="vid">3 Video</p>
+        <div class="container1">
+             <button class="video"><a href="Video.html"><img src="Assets/cooking.jpg"></a></button>
+             <a href="Video.html"><p>How to cook with spices</p></a>
+             <p class="desc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu sapien elit. Proin consequat nunc.</p>
+        </div>
+        <div class="container2">
+            <button class="video"><a href="Video.html"><img src="Assets/baking.jpg"></a></button>
+            <a href="Video.html"><p>Desert baking with me</p></a>
+            <p class="desc2">Fusce varius accumsan justo eu semper. Etiam maximus nisl elit, ac consequat urna cursus in. Pellentesque ornare, lectus nec dapibus tristique, leo urna consectetur orci, nec dignissim justo elit sit amet ipsum. In congue lacus enim.</p>
+        </div>
+        <div class="container3">
+            <button class="video"><a href="Video.html"><img src="Assets/brewing.jpg"></a></button>
+            <a  href="Video.html"><p>Brewing morning coffee</p></a>
+            <p class="desc3">Maecenas est risus, commodo ac tincidunt ut, gravida ut ante. Vestibulum aliquam iaculis eleifend. Donec ac vulputate ligula.</p>
+        </div>
+</body>
+</html>
